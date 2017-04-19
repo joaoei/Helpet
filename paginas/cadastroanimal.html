@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+		<meta charset="UTF-8"/>
+		<title> Helpet </title>
+		<link rel="stylesheet" href="../css/style_cadastraranimal.css">
+</head>
+
+<body>
+	<header>
+		<img id="logo_header" src="../imagens/logo_helpet.png">
+		<ul>
+			<a href="#usuario">
+				<div class="dropdown">
+					<span>
+						<li> OPÇÕES </li>
+					</span>
+					<div class="dropdown-content">
+						<p class="texto_drop"><a href="meuperfil.html"> Meu Perfil </a></p>
+						<p class="texto_drop"><a href="../index.html"> Sair </a></p>
+					</div>
+				</div>
+			</a>
+			<a href="../index.html#animais"> 
+				<li> ANIMAIS</li> 
+			</a>
+			<a href="../index.html#contato">
+				<li> CONTATO </li>
+			</a>
+		</ul>
+	</header>
+
+	<div id="cadastro_animal">
+    	<div id="conteudo">
+			<h1>Cadastrar Animal</h1> 
+			<form action="no_action" method="POST">
+				<table>
+					<tr>
+						<td>
+							<label for="nome">Nome:</label><br/>
+							<input id=“nome” type=“text”>
+						</td>
+						<td>
+							<label for="nome_dono">Nome do propietário:</label><br/>
+							<input id=“nome_dono” type=“text”>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="especie">Espécie:</label><br/>
+							<input id=“especie” type=“text”>
+						</td>
+						<td>
+							<label for="raca"> Raça: </label><br/> 
+							<input id=“raca” type=“text”>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="cidade"> Cidade: </label><br/> 
+							<input nid=“cidade” type=“text”>
+						</td>
+						<td>
+							<label for="idade"> Idade: </label><br/> 
+							<input id=“idade” type=“text”>
+						</td>
+					</tr>
+					<tr>
+						<td id="radio">
+							<label for="sexo"> Sexo: </label><br/>
+							<input type="radio" name="sexo" id="sexo" value="macho">Macho
+							<input type="radio" name="sexo" id="sexo" value="femea">Fêmea
+						</td>
+						<td>
+							<label for="valor"> Valor: </label><br/> 
+							<input id=“valor” type=“text”>
+						</td>
+					</tr>
+				</table>
+				<div id="button">
+					<br/><button type="submit">Carregar fotos</button>
+					<button type="submit">Cadastrar</button>
+					<button type="reset">Limpar Dados</button>
+				</div>	
+			</form>
+    	</div>
+	</div>
+	<footer>
+		
+	</footer>
+</body>
+
+</html>

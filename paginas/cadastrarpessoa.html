@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+		<meta charset="UTF-8"/>
+		<title> Helpet </title>
+		<link rel="stylesheet" href="../css/style_cadastrarpessoa.css">
+</head>
+
+<body>
+	<header>
+		<img src="../imagens/logo_helpet.png">
+		<ul>
+			<a href="../index.html"><li> INÍCIO</li> </a>
+			<a href="../index.html#animais"><li> ANIMAIS</li> </a>
+			<a href="../index.html#contato"><li> CONTATO</li> </a>
+			<a href="login.html"><li> ENTRAR </li> </a>
+			<a href="cadastrarpessoa.html"><li> CRIAR UMA CONTA</li> </a>
+		</ul>
+	</header>
+
+	<div id="cadastro">
+    	<div id="conteudo">
+				<h1>Cadastrar Usuário</h1> 
+				<form action="no_action" method="POST">
+					<table>
+						<tr>
+							<td>
+								<label for="name">Nome:</label><br/>
+								<input type=“text” id=“name”>
+							</td>
+							<td>
+								<label for="email">E-mail:</label><br/>
+								<input type=“email” id=“email”>
+							</td>
+						</tr>
+								
+						<tr>
+							<td>
+								<label for="nick">Usuário:</label><br/>
+								<input type=“text” id=“nick”>
+							</td>
+							<td>
+								<label for="password"> Senha: </label><br/> 
+								<input type=“password” id=“senha”>
+							</td>
+						</tr>
+								
+						<tr>
+							<td>
+								<label for="conf_password"> Confirmar Senha:</label><br/>
+								<input type=“password” id=“conf_password”>
+							</td>
+					
+							<td>
+								<label for="cidade"> Cidade: </label><br/> 
+								<input type=“text” id=“cidade”>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<br/><button type="submit">Cadastrar</button>
+							</td>
+					
+							<td>
+								<br/><button type="reset">Limpar Dados</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+    	</div>
+	</div>
+	
+	<footer>
+		
+	</footer>
+</body>
+
+</html>

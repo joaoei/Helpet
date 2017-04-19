@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Offside|Ubuntu|Righteous');
+header {
+     width: 100%; 
+     background-color: #22333b; 
+     height: 50px; 
+     position: fixed; 
+     top: 0px; 
+     left: 0px; 
+     z-index: 1;
+}
+
+header img {
+     height: 50px;
+}
+
+header ul {
+      list-style: none;
+      position: relative;
+      float: right;
+      top: -16px;
+}
+
+header li {
+     display: inline-block;
+     background-color: #22333b; 
+     padding: 15px 10px 15px 10px;
+     font-family: 'Righteous', sans-serif;
+} 
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header li:hover {
+     border-left: solid;
+     border-right: solid;
+     border-color: #49A078;
+     border-width: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     color: #ffffff;
+     transition-delay: 0.2s;
+     transition-duration: 0.2s;
+}
+
+
+/* ************ ESTILO DA PAGINA LOGIN.HTML ********* */
+
+#login {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0px; 
+    height: 600px;
+    background-color: #ffffff;
+}
+
+#conteudo {
+    position: absolute;
+    width: 50%;
+    right: 20%;
+    left: 20%;
+    background-color: #6B9080;
+    height: 300px;
+    top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#login h1 {
+    font-size: 40px;
+    font-family: 'Righteous', sans-serif; 
+    color: #22333b;
+}
+
+form {
+    margin: 0 auto;
+    width: 250px;
+}
+
+form div + div {
+    margin-top: 10px;
+}
+
+label {
+    color: #22333b;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+input {
+    font-size: 20px;
+    color: #22333b;
+    font-family: 'ABeeZee', sans-serif;
+    width: 250px;
+}
+
+button {
+    width: 255px;
+    border-style: none;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    background-color: #22333b;
+    color: #ffffff;
+}
+
+footer {
+    position: absolute;
+    width: 100%; 
+    background-color: #22333b; 
+    height: 50px;
+    top: 612px;
+    left: 0px;
+}
+

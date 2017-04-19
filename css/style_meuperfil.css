@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+header {
+     width: 100%; 
+     background-color: #22333b; 
+     height: 50px; 
+     position: fixed; 
+     top: 0px; 
+     left: 0px; 
+     z-index: 1;
+}
+
+header #logo_header {
+     height: 50px;
+}
+
+header .texto_drop{
+  font-family: 'Righteous', sans-serif;
+  text-align: center;
+
+}
+
+header .texto_drop:hover {
+   border-left: solid;
+     border-right: solid;
+     border-color: #49A078;
+     border-width: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     transition-delay: 0.2s;
+     transition-duration: 0.2s;
+
+}
+
+header ul {
+      list-style: none;
+      position: relative;
+      float: right;
+      top: -16px;
+}
+
+header li {
+     display: inline-block;
+     background-color: #22333b; 
+     padding: 15px 10px 15px 10px;
+     font-family: 'Righteous', sans-serif;
+} 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #22333b;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#imagem_usuario {
+  height: 23px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header li:hover {
+     border-left: solid;
+     border-right: solid;
+     border-color: #49A078;
+     border-width: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     color: #ffffff;
+     transition-delay: 0.2s;
+     transition-duration: 0.2s;
+}
+
+#conteudo {
+      height: 100%;
+      width: 100%;
+      left: 0px; 
+}
+#container {
+    border-color: blue;
+    text-align: center;
+}
+
+.box {
+
+    display: inline-block;
+    width: 25%; 
+    height: 550px;
+    margin-top: 4%
+
+}
+
+.box a {
+
+    text-decoration: none;
+}
+
+.box ul {
+
+    list-style: none;
+    position: relative;
+    top: -16px;
+}
+.imagem {
+
+  padding-top: 100px;
+
+}
+.imagem_hover:hover{
+
+    border: solid;
+    border-color: #49A078;
+    border-radius: 20px;
+}
+.imagem_hover {
+  padding: 2px;
+}
+.imagem img{
+
+    width: 200px;
+    height: 200px;
+}
+
+.descricao_link{
+
+  color: #22333b;
+  font-family: 'Righteous', sans-serif;
+  font-size: 24px;
+}
+
+footer {
+    position: absolute;
+    width: 100%; 
+    background-color: #22333b; 
+    height: 50px;
+    top: 612px;
+    left: 0px;
+}
+}
