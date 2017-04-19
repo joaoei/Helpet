@@ -51,8 +51,23 @@
 		</div>
 
 		<div id="contato">
-			<div>
+			<div id="form">
 				<h1>Entre em contato</h1>
+				<!-- O formulário só irá pegar quanda estiver hospedado -->
+				<form method="POST" action="http://formspree.io/joaoeizidio@hotmail.com">
+					<div>
+				    	<input type="text" name="nome" placeholder="Seu nome"/>
+					</div>
+					<div>
+				    	<input type="email" name="email" placeholder="Seu email"/>
+					</div>
+					<div >
+						<textarea name="message" placeholder="Sua mensagem"></textarea>
+					</div>
+					<div class="button">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
