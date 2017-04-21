@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Offside|Ubuntu|Righteous');
 
 header {
      width: 100%; 
@@ -94,7 +92,8 @@ header li:hover {
     width: 100%;
     left: 0px; 
     height: 600px;
-    background-color: #ffffff;
+    background-image:  url(../imagens/wallpaper.jpg);
+    background-size: 100%;
 }
 
 #conteudo {
@@ -167,6 +166,6 @@ footer {
     width: 100%; 
     background-color: #22333b; 
     height: 50px;
-    top: 612px;
     left: 0px;
+    bottom: 0px;
 }
